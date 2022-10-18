@@ -15,7 +15,7 @@ function App() {
     return (
         <div className="App">
             <Link to="/add-project">Add projects</Link>
-            <SearchElementsFormComponent linkListId={"cardsList"} />
+            <SearchElementsFormComponent />
 
             <ItemsListComponent
                 className="list"
